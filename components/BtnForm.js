@@ -2,6 +2,7 @@ import React from 'react'
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import globalStyles from '../styles/globalStyles'
 
+
 const BtnForm = ({btnText, activate, onHandlePress}) => {
     return (
         <Pressable
